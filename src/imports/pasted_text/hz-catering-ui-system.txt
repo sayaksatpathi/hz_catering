@@ -1,0 +1,108 @@
+
+
+PROJECT
+Design a luxury catering brand UI system in Figma for "HZ Catering Services" — tagline: "Serving Taste with Royal Perfection".
+
+
+DESIGN LANGUAGE
+Build a premium hospitality aesthetic that fuses modern minimal luxury with subtle Indian cultural richness. Inspiration references: Taj Hotels, royal Indian wedding mandaps, fine-dining plated courses. The visual language must feel expensive, restrained, and globally polished — never heavy or decorative for its own sake.
+
+
+COLOR SYSTEM
+Primary: Deep Royal Black #0F0F0F
+Brand Gold: #C9A24A (primary accent — buttons, dividers, highlights)
+Soft Cream: #F8F5F0 (section backgrounds)
+Pure White: #FFFFFF (cards, surface layers)
+Accent Burgundy: #7A1F2A (secondary accent — hover states, tags)
+Warm Marigold: #E8A020 (festive accent — use sparingly, 10% max coverage)
+
+
+TYPOGRAPHY SCALE
+Display / H1: Playfair Display Bold, 64–72px, tracking -0.5px
+H2 Section Title: Playfair Display SemiBold, 40–48px
+H3 Card Title: Montserrat SemiBold, 22–24px
+Body: Poppins Regular, 15–16px, line-height 1.7
+Labels / Tags: Montserrat, 11px, uppercase, tracking +1.5px
+CTA Button: Montserrat SemiBold, 14px, uppercase, tracking +0.5px
+
+
+GRID & SPACING
+12-column grid, 80px gutters (desktop), 24px column gap
+Section vertical padding: 100–120px
+Card radius: 12px (standard), 16px (hero cards)
+Shadow: 0 4px 24px rgba(0,0,0,0.08) for cards; 0 2px 8px rgba(0,0,0,0.06) for inputs
+Max content width: 1280px, centered
+
+
+SURFACE & TEXTURE
+Glassmorphism cards: backdrop-blur 16px, bg rgba(255,255,255,0.07), border 1px rgba(201,162,74,0.2)
+Background motif: mandala / jaali geometric SVG at 3% opacity — use only in hero, section dividers, and footer
+Gold horizontal dividers: thin 1px line with centered diamond motif icon
+Marigold petal soft wash: radial gradient at section intersections, max 8% opacity
+
+
+PHOTOGRAPHY DIRECTION
+Use high-quality, warm-toned images throughout:
+* Hero: Grand wedding mandap with buffet lighting, deep DOF, warm bokeh
+* Services: Aerial plated course, outdoor banquet, live tandoor counter
+* Gallery: Indian wedding decor table settings, chaat counter close-ups, dessert platters
+* About: Behind-the-scenes kitchen, chef plating in whites
+All images: aspect ratio 16:9 (hero), 4:3 (cards), 1:1 (gallery grid)
+Overlay on hero image: linear-gradient 135deg from #0F0F0F at 72% opacity to transparent
+
+
+COMPONENT LIBRARY
+Design these as reusable components with all variants:
+
+NAV BAR — Transparent state + scrolled (dark fill #0F0F0F, 95% opacity + blur). Logo: serif wordmark "Royal Catering" + small mandala motif icon. Links: Poppins 14px, hover = gold underline slide-in. CTA: "Book Now" gold filled button, pill shape, 44px height. Mobile: full-screen overlay menu with staggered link animation.
+
+HERO SECTION — Full viewport height. Layered: image → dark overlay → gold gradient vignette → text content. Headline 72px Playfair, cream color. Subtext 18px Poppins, 70% opacity cream. Two CTAs: "Book Catering" (gold filled) + "View Menu" (ghost, gold border). Scroll indicator: thin gold animated line.
+
+SERVICES CARDS (6 cards) — Wedding Catering, Corporate Catering, Birthday & Private Events, Outdoor Catering, Buffet Setup, Live Food Counters. Card: dark bg #1A1A1A, gold icon (SVG lineart, 32px), H3 title, 2-line description. Hover state: gold border glow 1px, icon color-shift to marigold, card lifts 4px.
+
+MENU HIGHLIGHTS — Tab filter row (Starters / Main Course / Desserts / Beverages). Cards: image top, category pill tag (burgundy), dish name H3, 1-line description, price aligned right. Hover: image zoom 1.04x within clip, overlay with "View Details" ghost CTA.
+
+GALLERY GRID — Masonry 3-column layout. Images: natural heights, 8px gap. Hover: dark overlay fade-in + zoom 1.06x + centered expand icon (gold, 28px). Click → lightbox modal with image + caption + prev/next arrows.
+
+WHY CHOOSE US — 6-item grid (2×3). Each: circular gold icon container (48px), heading, 1-line text. Section bg: cream #F8F5F0 with faint mandala watermark.
+
+TESTIMONIALS CAROUSEL — Cards: white surface, 5-star rating (gold stars, 16px), quote text Poppins italic, client name + event type below. Navigation: gold dot indicators + prev/next chevron arrows. Auto-advance every 5s.
+
+PRICING CARDS (3 tiers) — Silver / Gold / Royal. Layout: vertical cards, equal width. Royal card: dark bg #0F0F0F, gold border 1px, "Most Popular" ribbon badge. Features: checkmark list (gold tick icon). CTA: filled gold button. Silver/Gold: cream bg.
+
+ABOUT SECTION — 50/50 split. Left: image with gold corner accent frame. Right: headline, body copy, 3 stat counters (years, events, cities), gold CTA link.
+
+CONTACT / BOOKING — Form fields: name, phone, event type (dropdown), guest count, date picker, message. All inputs: dark bg, gold focus border, 48px height. Submit: full-width gold button "Request a Quote". WhatsApp float button: bottom-right, branded green + icon.
+
+FOOTER — 4-column: logo + tagline + tagline subtext / Links / Services / Social. Social icons: Instagram, Facebook, YouTube — gold color on hover. Bottom bar: copyright + "Designed with ❤ for every celebration".
+
+
+ANIMATION SPECS
+Scroll reveal: fade-up 24px, 400ms ease-out, 80ms stagger per sibling
+Hover transitions: all 200ms ease
+Nav scroll: background transition 300ms ease
+Carousel: slide 500ms ease-in-out
+Gallery hover overlay: 250ms ease
+Card lift on hover: translateY(-4px) 200ms ease, shadow deepen
+
+
+RESPONSIVE BREAKPOINTS
+Desktop: 1280px (12-col grid)
+Tablet: 768px (8-col, stacked cards 2×3 → 1×3)
+Mobile: 375px (4-col, single column, nav collapses to hamburger)
+
+
+FIGMA-SPECIFIC INSTRUCTIONS
+Create a complete Figma file with:
+1. Design Tokens page (color styles, text styles, spacing tokens, shadow styles)
+2. Component Library page (all components in all states: default, hover, active, disabled, mobile)
+3. Desktop Prototype page (all 11 sections, full scroll flow, interactive overlays)
+4. Tablet + Mobile page (responsive variants)
+5. Auto Layout on ALL components — no fixed-size frames
+6. Variants: use Figma component properties for button (size, style, state), card (hover/default), nav (transparent/scrolled/mobile)
+7. Prototype links: Nav CTA → Booking section; Menu tabs → filtered view; Gallery items → lightbox overlay
+8. Export-ready: all icons as SVG frames, images as fill layers with placeholder rectangles
+
+
+MOOD KEYWORDS FOR IMAGE GENERATION
+opulent, warm candlelight, deep bokeh, gold accent, Indian wedding grandeur, white linen, plated fine dining, marigold garland, royal blue twilight, aromatic steam, hands of a chef
